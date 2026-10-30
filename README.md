@@ -1,29 +1,36 @@
-# 紧凑双齿条升降夹爪（审阅版）
+# 大鱼写字机 Z 轴升降机械爪工程
 
-本版本在 Z 齿条下方增加小型夹爪安装平台。平台贴在齿条前侧，避免进入升降小齿轮的齿宽；夹爪槽口朝下，夹爪用 2×M3 螺钉安装，孔中心距 24 mm。Z 轴名义行程为 80 mm，使用被固定通道约束的滑块导向，不使用 Z 轴光轴。
+保存日期：2026-10-30。当前阶段：**布局预览，尚未制造定版**。
 
-## 文件
+## 当前方案
+- 保留齿轮齿条升降和槽形导向，不使用 Z 轴光轴。
+- 下部替换为用户提供的齿轮连杆夹爪，预览机构按25%缩放；圆爪保持原尺寸，开孔长柄朝上。
+- 升降齿轮暂定模数2、18齿、节圆直径36 mm、外径40 mm。
+- 假定150度舵机可用转角，理论位移47.12 mm；这不是已验证有效行程。
+- 当前静态预览总高263.15 mm。安装孔、连接件、舵机接口和运动干涉仍待校核。
 
-- `outputs/assembly_open_retracted_REVIEW_ONLY.stl`：张开、低位总装审阅网格。
-- `outputs/assembly_open_extended_REVIEW_ONLY.stl`：张开、高位总装审阅网格。
-- `outputs/z_claw_platform_2xM3.stl`：夹爪平台，约 66×14×8 mm，夹爪孔为 Ø3.4 mm、中心距 24 mm。
-- `outputs/z_rack.stl`、`outputs/z_lift_carriage.stl`、`outputs/z_lift_frame.stl`：升降件。
-- `outputs/validation.json`：尺寸、姿态和网格交叠检查结果。
+## 查看与恢复
+GitHub连接器仅支持文本提交，本机Git直连不可用，因此模型、原生SolidWorks文件及PNG采用**无损ZIP的Base64分片**保存。文件没有丢弃，也不是可直接改后缀使用的模型。
 
-STL 是审阅用网格，不是原生 SolidWorks 特征模型或 STEP。实物舵机、轴承和紧固件仍需按型号核对。
+1. 在仓库页面选择 Code → Download ZIP，完整解压。
+2. 在此文件夹运行 `python restore.py`（Python 3.9以上，无额外依赖）。
+3. 生成 `restored_project`，自动验证全部100个文件的SHA-256。
+4. 打开 `restored_project/preview_revision/layout_perspective.png` 和 `claw_detail.png` 查看本次预览。
 
-## 当前关键参数
+`source/`、`docs/` 与参数文件可直接在GitHub阅读；`archive/`保存完整快照分片；`MANIFEST.json`列出每个文件的大小与校验值。
 
-| 项目 | 参数 |
-|---|---:|
-| Z 行程 | 80 mm |
-| Z 小齿轮 | 30 齿，模数 2，节圆半径 30 mm |
-| Z 齿条 | 约 105 mm 长 |
-| 夹爪同步齿轮 | 12 齿，模数 1.5 |
-| 夹爪张开基准间距 | 90 mm |
-| 高度范围 | 低位总高 272 mm；最高基准 280 mm |
-| 夹爪平台 | 约 66×14×8 mm；2×M3 安装孔，24 mm 中心距 |
+## 完整快照内容
+- `preview_revision/`：最新预览图及参数。
+- `outputs/`：此前80 mm行程、双齿条夹爪版本的STL与校验记录。**这是旧方案，有已知干涉，不是最新预览的制造模型。**
+- `reference/original_gripper/`：用户提供的新夹爪SLDASM、SLDPRT及参考JPG。
+- `reference/new_gripper/`：从该装配提取的组件STL及变换记录。
+- `reference/圆爪.STL`、`圆爪.SLDPRT`：用户圆爪。
+- `source/`：旧版生成器与独立预览生成器。仓库快照中的路径已改为项目相对路径。
+- 中文交接文件、装配说明、BOM及历史状态文档。旧文档由最新交接文件中的说明取代。
 
-## 校验状态
+## 重新生成预览
+恢复后，在 `restored_project` 中使用Node.js 22或更新版本执行 `npm install`、`npm run preview`。`npm run build`生成的是旧版，不能用来生成新夹爪制造定版。
 
-构建可完成，输出网格是单壳体打印件，升降姿态按 5 mm 步距采样，最大名义行程 80 mm。`validation.json` 仍列有总装内部交叠，包括导向通道与夹爪骨架区域；因此本版用于继续审阅，不能当作无干涉的制造定版。夹持力、舵机扭矩、打印公差和结构强度均未做实物验证。夹持 Ø35 mm 参考球的几何接触也尚未验证。
+本次未重新进行运动、强度、夹持力及实物舵机验证。`source/export_donor.ps1`是历史实验脚本，存在活动文档导出及锁文件遍历问题，不要直接运行。网上获取的参考模型保留原来源属性，本仓库不为其额外授予许可证。
+
+本快照不含node_modules、临时锁文件、重复组件导出、39 MB演示GIF或整个E盘零件库；包含本次工程所需模型和生成输入。

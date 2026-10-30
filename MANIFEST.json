@@ -1,0 +1,502 @@
+[
+  {
+    "path": "BOM.csv",
+    "bytes": 1164,
+    "sha256": "5e8d637eeccda66408cf9dccd1d4c1937ae8766d9b7580de08ebd1e5537f038c"
+  },
+  {
+    "path": "outputs/assembly_closed_extended_REVIEW_ONLY.stl",
+    "bytes": 1667284,
+    "sha256": "31baaccdca1e46f38f33afa6808590903f10461046fb1a22af00f7acdf7b4efb"
+  },
+  {
+    "path": "outputs/assembly_closed_retracted_REVIEW_ONLY.stl",
+    "bytes": 1648384,
+    "sha256": "1dcb8b4ac20dc1c3d35177593fc1eb6cf3dd3dfd677fdb66f05dae30ee35e857"
+  },
+  {
+    "path": "outputs/assembly_grip35_retracted_REVIEW_ONLY.stl",
+    "bytes": 1712384,
+    "sha256": "5a4959ab275cb701411402b41d0fdce093811ecd1d3c11065f1e32f314018618"
+  },
+  {
+    "path": "outputs/assembly_open_extended_REVIEW_ONLY.stl",
+    "bytes": 1676284,
+    "sha256": "043f8e1b626db9798e32cd605137f145aa3d745469d6e1868d95b540fcb5a304"
+  },
+  {
+    "path": "outputs/assembly_open_retracted_REVIEW_ONLY.stl",
+    "bytes": 1653284,
+    "sha256": "848b5478fd75216d6af94ce6f6ff96843ff76a023bc7e33e7f6fc69d01ae27f0"
+  },
+  {
+    "path": "outputs/claw_cover.stl",
+    "bytes": 72284,
+    "sha256": "8c19447011c13969d279318b0addb6738220db91252c89cc129db0380f7ba355"
+  },
+  {
+    "path": "outputs/claw_frame.stl",
+    "bytes": 140584,
+    "sha256": "c5f3a4b8bf41fd29124215e30d3d6ade8fcfa713f90928e2e41f686c563246b0"
+  },
+  {
+    "path": "outputs/claw_gear_compound.stl",
+    "bytes": 101184,
+    "sha256": "a35dcff59f7174d5f2b60eea3e5d1003d3fe264865a7a137616cc15fe401ff5e"
+  },
+  {
+    "path": "outputs/claw_servo_pinion.stl",
+    "bytes": 81784,
+    "sha256": "e988007ccb67669bc7482f9f3022325d155cd7dd8d8045c213c28b37f6a18c34"
+  },
+  {
+    "path": "outputs/debug_jaws.png",
+    "bytes": 133877,
+    "sha256": "77f0b265f2df020238897b6d0362ddafbc76b12cae428a4944c9ca3df1121b9d"
+  },
+  {
+    "path": "outputs/debug_round_source.png",
+    "bytes": 81885,
+    "sha256": "3570745e7874c7952d94337602bb43b8f4fb088450b4b326714ca49fef3a2ec8"
+  },
+  {
+    "path": "outputs/debug_round_source_x.png",
+    "bytes": 55813,
+    "sha256": "12f563dc49913894b760d22c78c9bbcfee5b7529db9b6891435da4683d5b9d21"
+  },
+  {
+    "path": "outputs/debug_round_source_y.png",
+    "bytes": 38004,
+    "sha256": "b03b923d60560ec9c27a0918c244430b536d6527530ae12b71a7329aa3f5dde4"
+  },
+  {
+    "path": "outputs/jaw_left_round.stl",
+    "bytes": 64184,
+    "sha256": "e8827349c03d8414cbc39b192f88ae1dc5d0a5d0bb8c691df6818b0718c16fbd"
+  },
+  {
+    "path": "outputs/jaw_right_round.stl",
+    "bytes": 63584,
+    "sha256": "fcf71c9842d5d9b05da75c303e79fd20389a8f8a36b84f8c483b8c7275d4c277"
+  },
+  {
+    "path": "outputs/linkage_frame.stl",
+    "bytes": 78384,
+    "sha256": "e05aba6f568f47ac15f4b055984ca39d2c90bbf5492431abbd35bb49ec741e9c"
+  },
+  {
+    "path": "outputs/linkage_jaw_left.stl",
+    "bytes": 94684,
+    "sha256": "fd093a16f0bc6a617a4801ecc719694179c7f9b08f24e2b81e9c8e580243638b"
+  },
+  {
+    "path": "outputs/linkage_jaw_right.stl",
+    "bytes": 98984,
+    "sha256": "4db91afaa8d7adfa7d55483ccad3d1f98b59542db7964d2316905520e342236a"
+  },
+  {
+    "path": "outputs/linkage_servo_pinion.stl",
+    "bytes": 92084,
+    "sha256": "7ae5cdd1c931dfa3d1c52c4e7942a85d2e58c7336e2daa02a7f25effd6d7fae0"
+  },
+  {
+    "path": "outputs/preview_ball35.png",
+    "bytes": 272595,
+    "sha256": "8fdd5ff4686fea93222a5be851422e8d85d15167c4cf33312a81801f06478f8e"
+  },
+  {
+    "path": "outputs/preview_claw_ball35.png",
+    "bytes": 182092,
+    "sha256": "c4b08a222e7d32b345f618ef69ec841416bb1f3550e0ab3dfcac64906173d5c1"
+  },
+  {
+    "path": "outputs/preview_claw_open.png",
+    "bytes": 214559,
+    "sha256": "4a8cabc29f130a5d7d9b409676fe225e08888c87be1b08a536f0334d3211b2f3"
+  },
+  {
+    "path": "outputs/preview_closed_high.png",
+    "bytes": 271789,
+    "sha256": "9bb853511c4b29f4299befcbd85cd13144b080a03d41c5c5ba4cd24593afe005"
+  },
+  {
+    "path": "outputs/preview_open_low.png",
+    "bytes": 268704,
+    "sha256": "762591ddd7a1d5193acdb90f55787e942008e96ac67eda56e07b7d19deb3ad8b"
+  },
+  {
+    "path": "outputs/validation.json",
+    "bytes": 172630,
+    "sha256": "e0e105c0674c659329a5d880aa2b8d91308c602fca8a3ee18535746caa046e10"
+  },
+  {
+    "path": "outputs/x_axis_slider_reference.stl",
+    "bytes": 510884,
+    "sha256": "d9929f098704ad4718c871813c0f7d5a63af05e6b20ce0a1cd3fe0506649371a"
+  },
+  {
+    "path": "outputs/x_slider_adapter.stl",
+    "bytes": 105884,
+    "sha256": "e1715342b590337f91dafd27e9bf72a385dbf6d97cb02a368138f004a99481fb"
+  },
+  {
+    "path": "outputs/z_claw_platform_2xM3.stl",
+    "bytes": 41084,
+    "sha256": "4410bae0f9528d3c89ab65c8aa0dafdaddbae98cdd9ad7a0be231376ecd9a289"
+  },
+  {
+    "path": "outputs/z_horn_spacer.stl",
+    "bytes": 25684,
+    "sha256": "08bb8b6172a8dfc449cd975f1d326782c7bba4e38cd4a3c30cca8fd104b6fe13"
+  },
+  {
+    "path": "outputs/z_lift_carriage.stl",
+    "bytes": 138184,
+    "sha256": "0f99ef5f9425c53a35f66f7fe9cc687c6ae1058b63517dd980274aca73d743ac"
+  },
+  {
+    "path": "outputs/z_lift_frame.stl",
+    "bytes": 45884,
+    "sha256": "75f87c3bc2a89740fc4b1da8c0fcb0aebd62cb825dde010f874295a918febd74"
+  },
+  {
+    "path": "outputs/z_pinion.stl",
+    "bytes": 267684,
+    "sha256": "59ecc8eb5621b94f76dcfddc7c91c0d0029a27203c273d37033ba072dfa0eaaa"
+  },
+  {
+    "path": "outputs/z_pinion_block.stl",
+    "bytes": 72084,
+    "sha256": "902bda6a03d870698bc911f5e594a2136c919072b1667a607c6ab8f7d4da5a1d"
+  },
+  {
+    "path": "outputs/z_rack.stl",
+    "bytes": 51884,
+    "sha256": "7bd1e04ff605d4c0dfe1b03f996b3755c45b2becb853600ad30eda082a2e38ce"
+  },
+  {
+    "path": "outputs/z_rack_guide.stl",
+    "bytes": 43684,
+    "sha256": "efee7489ed719c1f16c4935f665e5363d82b909e39ffe309e46acd8a40cbce96"
+  },
+  {
+    "path": "outputs/z_rack_guide_0.stl",
+    "bytes": 21884,
+    "sha256": "0bdd4af348061be2b6fd176717ad6803f417b132c821dc346827d9a7d270757f"
+  },
+  {
+    "path": "outputs/z_rack_guide_1.stl",
+    "bytes": 21884,
+    "sha256": "2dac09a0e34a27b6e0db72f021224d0ad65095a5374e0906cf18d4b0c90326d6"
+  },
+  {
+    "path": "outputs/z_servo_mount.stl",
+    "bytes": 104884,
+    "sha256": "73e84f1ac3d995af604cc2ce0a288168d1dce4e2fe0990393a599a1d5b3226fc"
+  },
+  {
+    "path": "outputs/z_servo_mount_symmetric.stl",
+    "bytes": 49384,
+    "sha256": "866b94a0e9dfa24074ea82af8f7e8c5fc0ef24000bab7accf98286fc77412233"
+  },
+  {
+    "path": "package.json",
+    "bytes": 315,
+    "sha256": "8ef369031bc11366b75f0b36bc5dd405a3a9980a05572fb371a21bd24318985b"
+  },
+  {
+    "path": "preview_revision/claw_detail.png",
+    "bytes": 166411,
+    "sha256": "6c023b3b83937a073dffc31665582bce306e640f2085a9425286e5e9b6ed322c"
+  },
+  {
+    "path": "preview_revision/donor_orientation.png",
+    "bytes": 179306,
+    "sha256": "76fc53c55b5f3d8c33f33f1e6a3bdbc0b93e024fc0cc48f6a21dcacc9a7a9c44"
+  },
+  {
+    "path": "preview_revision/layout_front.png",
+    "bytes": 148879,
+    "sha256": "04be236e4de93dc0517f334e9a94450c49b77de26d57b788b87d2655ab555ffc"
+  },
+  {
+    "path": "preview_revision/layout_perspective.png",
+    "bytes": 234043,
+    "sha256": "5e5e044fa5037033787ee1e56eeb253774242899043020e3752b508e8d53d021"
+  },
+  {
+    "path": "preview_revision/preview_parameters.json",
+    "bytes": 779,
+    "sha256": "4024cea188dc0258946ef904b3f4d00d63aecda1d304de1885418c701d6bd4ab"
+  },
+  {
+    "path": "preview_revision/round_handle_up.png",
+    "bytes": 62080,
+    "sha256": "8df3e1f5186d4e1913b5655bfb08fb8a2766a1e53c19a66d02c659083938254d"
+  },
+  {
+    "path": "preview_revision/round_source.png",
+    "bytes": 47742,
+    "sha256": "34bf286cac765e697878279640dbdd8e28552c46716320df199cd9f266ed66d8"
+  },
+  {
+    "path": "README.md",
+    "bytes": 1770,
+    "sha256": "f0b7b6fe8d93fc9c364dff5316cfe95ec7443122a976bcb3669c1bcb7127eaf7"
+  },
+  {
+    "path": "reference/adapter.stl",
+    "bytes": 105884,
+    "sha256": "2c19dbae66154ecd47471a9fe7dcc297f068d15c86cd5060de2993be51e5535d"
+  },
+  {
+    "path": "reference/claw_rack_120/outputs/cover.stl",
+    "bytes": 72284,
+    "sha256": "8c19447011c13969d279318b0addb6738220db91252c89cc129db0380f7ba355"
+  },
+  {
+    "path": "reference/claw_rack_120/outputs/frame.stl",
+    "bytes": 140584,
+    "sha256": "c5f3a4b8bf41fd29124215e30d3d6ade8fcfa713f90928e2e41f686c563246b0"
+  },
+  {
+    "path": "reference/claw_rack_120/outputs/gear_compound.stl",
+    "bytes": 101184,
+    "sha256": "a35dcff59f7174d5f2b60eea3e5d1003d3fe264865a7a137616cc15fe401ff5e"
+  },
+  {
+    "path": "reference/claw_rack_120/outputs/jaw_left.stl",
+    "bytes": 51284,
+    "sha256": "a66b4f12679d468b7a12d472284728aed0ab69a163e41941bf56253a27b21c71"
+  },
+  {
+    "path": "reference/claw_rack_120/outputs/jaw_right.stl",
+    "bytes": 50784,
+    "sha256": "f99d757ff576f8cea1fe075146162b9775ebf31c569fb9bdb39c39456e0e2855"
+  },
+  {
+    "path": "reference/claw_rack_120/outputs/servo_pinion.stl",
+    "bytes": 81784,
+    "sha256": "e988007ccb67669bc7482f9f3022325d155cd7dd8d8045c213c28b37f6a18c34"
+  },
+  {
+    "path": "reference/new_gripper/1 - 1-1.STL",
+    "bytes": 846384,
+    "sha256": "0d1add7fb09ee9bccbe7c68b8c8c717bd09ca8b88f09d1153b80d493eaa543f7"
+  },
+  {
+    "path": "reference/new_gripper/1 - 1-2.STL",
+    "bytes": 846384,
+    "sha256": "8f2f4752ccb4b225138699d3500dead89dbacb90824782d67c5361baed01489f"
+  },
+  {
+    "path": "reference/new_gripper/1 - 2-1.STL",
+    "bytes": 199884,
+    "sha256": "f0e828db3f5c7129816c706623ccf1e6e5cc71a2fd552331360a46d4f3cb8c93"
+  },
+  {
+    "path": "reference/new_gripper/1 - 2-3.STL",
+    "bytes": 199884,
+    "sha256": "927b8f06acdbfcda296e48ae5a5a7a1479eca531f94fd6f0a1e444fcacf063a4"
+  },
+  {
+    "path": "reference/new_gripper/1 - 2-4.STL",
+    "bytes": 199884,
+    "sha256": "84d89da46bbf782db6020b7fe05717a20e546721c6daeb57e2c2469c85b76082"
+  },
+  {
+    "path": "reference/new_gripper/1 - 2-5.STL",
+    "bytes": 199884,
+    "sha256": "16ce938cb916ac2ae5c518796fa2c8116e270b758de4e3d42b6f321fc93852ca"
+  },
+  {
+    "path": "reference/new_gripper/1 - 3-1.STL",
+    "bytes": 16784,
+    "sha256": "3eeed9fb0b121f3407b21054608202c4aac0f0a5b5c9d814dbc3d1684e59aad3"
+  },
+  {
+    "path": "reference/new_gripper/1 - 3-2.STL",
+    "bytes": 16784,
+    "sha256": "a8f048047ae33ff2d494f4b2535658fc39940ebbd4ea721e711c394b9ae83780"
+  },
+  {
+    "path": "reference/new_gripper/1 - 3-3.STL",
+    "bytes": 16784,
+    "sha256": "7a2de223265d816eb2b522427900974255f33a09dd8234417b21a1592e4b3f3d"
+  },
+  {
+    "path": "reference/new_gripper/1 - 3-4.STL",
+    "bytes": 16784,
+    "sha256": "424dcac4c81b200a96fca0b1fb124d142a64e11bfcd5399f572d48f1be485b8b"
+  },
+  {
+    "path": "reference/new_gripper/1 - 4-1.STL",
+    "bytes": 706684,
+    "sha256": "f5b01c537be5b0bf450a11b926c0e75caa96773066ecd70147d4d99fc506dee4"
+  },
+  {
+    "path": "reference/new_gripper/1 - 6-1.STL",
+    "bytes": 101284,
+    "sha256": "2dbff294deff06c33b758b65bef7fcccdb7baa51f639a69fa865b2a81da72eca"
+  },
+  {
+    "path": "reference/new_gripper/1 - 6-2.STL",
+    "bytes": 101284,
+    "sha256": "15562131ccc5afd4674dd9bdb5c3a58d85ddcca9bf82a8cb1022906183031563"
+  },
+  {
+    "path": "reference/new_gripper/1 - 7-1.STL",
+    "bytes": 149684,
+    "sha256": "53e0c5960c8457b13807369f6170a19fcbf37b2b0245d5c49051c136f9fb324d"
+  },
+  {
+    "path": "reference/new_gripper/1 - 8-1.STL",
+    "bytes": 702484,
+    "sha256": "6c2ede61ebcc610d6ecf4ff423952de98e60ca4087a2b44376fd92fe669b0015"
+  },
+  {
+    "path": "reference/new_gripper/1 - 8-2.STL",
+    "bytes": 702484,
+    "sha256": "cfbbe2f9cc960182cda92c61b7ac1d10f62f3ac9fd231b4f7fe8e4870536e128"
+  },
+  {
+    "path": "reference/new_gripper/components.txt",
+    "bytes": 3571,
+    "sha256": "7bc2ede06974f9c6bec656df0b86b793d0978262569b2dc400af9a661fc27eed"
+  },
+  {
+    "path": "reference/original_gripper/1.JPG",
+    "bytes": 499835,
+    "sha256": "507ee31c208a07c95a38cf5aa46dca73e5a504b6fcd6a432eaa084ada1f55060"
+  },
+  {
+    "path": "reference/original_gripper/1.SLDASM",
+    "bytes": 1403091,
+    "sha256": "f29d77e0a2d6aebc9b522aaf237331417411547a7c77fb9ff46f7df94c7c16d5"
+  },
+  {
+    "path": "reference/original_gripper/1.SLDPRT",
+    "bytes": 939852,
+    "sha256": "be4238bdd88bc3a53c1345670e319c194a731f4882ec404e3cb1ae18e493f64f"
+  },
+  {
+    "path": "reference/original_gripper/2.JPG",
+    "bytes": 461836,
+    "sha256": "73195f91baee370d738feba49667d6dd94db693b0d2fb319cb483468ab91abc7"
+  },
+  {
+    "path": "reference/original_gripper/2.SLDPRT",
+    "bytes": 159775,
+    "sha256": "ac44ec70241677900671ee5ff381ef6bbd88983d6a758cb1e5d3b171c6d7fd42"
+  },
+  {
+    "path": "reference/original_gripper/3.SLDPRT",
+    "bytes": 109440,
+    "sha256": "d35c318ed104f2d43887b60391212d67c731c6d0c3e034eaffef1a2d28348d42"
+  },
+  {
+    "path": "reference/original_gripper/4.SLDPRT",
+    "bytes": 909509,
+    "sha256": "a3973934b7b78b28f47f5b9260d429d5e99797791aad1708f59faab7d8b3b672"
+  },
+  {
+    "path": "reference/original_gripper/6.SLDPRT",
+    "bytes": 178679,
+    "sha256": "2138f7e61652b1f60bdfc1bafbda9f2a3befd1a2e1dd7b23f90255a49b6d64bd"
+  },
+  {
+    "path": "reference/original_gripper/7.SLDPRT",
+    "bytes": 179517,
+    "sha256": "576ce200fefc1ea0598d0966c2dd4eed012cc4a1d4a004be5bd1b3dd2aa1fa21"
+  },
+  {
+    "path": "reference/original_gripper/8.SLDPRT",
+    "bytes": 1020990,
+    "sha256": "88328e0457260779a7ff3520b8c33bb9957300b151b4a77bde9359f061557a2b"
+  },
+  {
+    "path": "reference/servo_rack_lift_60/outputs/frame.stl",
+    "bytes": 211784,
+    "sha256": "1b2dd8ca7f7af258d96fec73ff9990de9566032fd201e2ea44176597c5be98d9"
+  },
+  {
+    "path": "reference/servo_rack_lift_60/outputs/horn_spacer.stl",
+    "bytes": 25684,
+    "sha256": "08bb8b6172a8dfc449cd975f1d326782c7bba4e38cd4a3c30cca8fd104b6fe13"
+  },
+  {
+    "path": "reference/servo_rack_lift_60/outputs/pinion.stl",
+    "bytes": 339684,
+    "sha256": "e83239ade9c42da444ea91e2fa845868498370023e60d4ccaff3305603dc1eb0"
+  },
+  {
+    "path": "reference/servo_rack_lift_60/outputs/pinion_block.stl",
+    "bytes": 72084,
+    "sha256": "902bda6a03d870698bc911f5e594a2136c919072b1667a607c6ab8f7d4da5a1d"
+  },
+  {
+    "path": "reference/servo_rack_lift_60/outputs/rack.stl",
+    "bytes": 32684,
+    "sha256": "d646e51260333718b7b03b7d497f637be57a313b4695a2fabb8d052cc49a1c2a"
+  },
+  {
+    "path": "reference/servo_rack_lift_60/outputs/servo_mount.stl",
+    "bytes": 104884,
+    "sha256": "73e84f1ac3d995af604cc2ce0a288168d1dce4e2fe0990393a599a1d5b3226fc"
+  },
+  {
+    "path": "reference/servo_rack_lift_60/reference/Dayu_X_axis_slider.STL",
+    "bytes": 510884,
+    "sha256": "d9929f098704ad4718c871813c0f7d5a63af05e6b20ce0a1cd3fe0506649371a"
+  },
+  {
+    "path": "reference/圆爪.SLDPRT",
+    "bytes": 80206,
+    "sha256": "97a8875dbc1844f5538026577636601f5725afe4dc2d26a5fbb4a233039925a6"
+  },
+  {
+    "path": "reference/圆爪.STL",
+    "bytes": 26884,
+    "sha256": "86dbfef810e56cdb3784b57dbe0da96b0bb6398b850e66ce426e36e5daa964e9"
+  },
+  {
+    "path": "source/build.mjs",
+    "bytes": 32651,
+    "sha256": "bda9f495712f8334a2f365dd2ce1cb2b72ac8bd5be7737efa63556856e14b5e8"
+  },
+  {
+    "path": "source/export_donor.ps1",
+    "bytes": 2682,
+    "sha256": "7836b184c058da73e865f4b2fff7210feeaac62181f899921c81a2f99920c9dc"
+  },
+  {
+    "path": "source/preview_helpers.mjs",
+    "bytes": 7261,
+    "sha256": "f763fd23d347d9168fbb9a01ecc485499abc3ee6218b92c0b39cd0e2540b278c"
+  },
+  {
+    "path": "source/preview_revision.mjs",
+    "bytes": 4687,
+    "sha256": "12dd743d6e2a127f51caaba8b8992d96c21b764bd79119b2657c636f5f40eef3"
+  },
+  {
+    "path": "交接摘要_20261030.md",
+    "bytes": 2288,
+    "sha256": "d0044ca7f82679fce228d66ab8df8435e8c5a17c826aca0812d8ea7c383e6588"
+  },
+  {
+    "path": "工作保存_20261030.md",
+    "bytes": 1115,
+    "sha256": "3aa6a2e547b06b542b1e5bd5021509417ad38afbdc7cbbc2b942f73c3fa42021"
+  },
+  {
+    "path": "当前交接_预览版_20261030.md",
+    "bytes": 3092,
+    "sha256": "c3a00d72dc0a0e7c76fc2966871fdcfbd2f5c3c8c4af661d4ac0a7b808354c53"
+  },
+  {
+    "path": "装配说明.md",
+    "bytes": 896,
+    "sha256": "815f9d82ca5558e2ebe75295f9b905f789a0a61fa5f7ca7c633eacab3e351c60"
+  }
+]
