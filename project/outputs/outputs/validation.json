@@ -1,0 +1,8889 @@
+{
+  "kind": "DayuWriter Z gear-rack lift + single-pinion dual-rack gripper + mirrored round claws",
+  "status": "prototype mesh assembly; physical loads, fits, and servo performance remain unverified",
+  "parameters": {
+    "units": "mm",
+    "stroke": 80,
+    "lift_pinion_teeth": 30,
+    "lift_module": 2,
+    "lift_pinion_pitch_radius": 30,
+    "lift_pinion_center_z": 190,
+    "lift_rack_bottom_retracted_z": 94,
+    "lift_rack_length": 105,
+    "claw_height": 86,
+    "claw_bottom_retracted_z": 8,
+    "claw_bottom_extended_z": 88,
+    "guide": {
+      "type": "paired captured rectangular shoes in fixed channels; no Z guide rods",
+      "clearance_each_side": 0.5,
+      "support_length": 50,
+      "spacing": 120
+    },
+    "z_servo_rotation_required_deg": 152.79,
+    "jaw_gap": {
+      "open": 90,
+      "commanded_min": 52,
+      "safe_close_min_checked": 70
+    },
+    "overall_top_datum_z": 280,
+    "top_to_lowest_claw_tip": 272,
+    "claw_mount": {
+      "platform_hole_diameter": 3.4,
+      "platform_hole_spacing": 24,
+      "hole_x": [
+        -12,
+        12
+      ],
+      "hole_y": -74,
+      "count": 2
+    },
+    "rack_platform_mount": {
+      "fastener": "M3",
+      "clearance_diameter": 3.4,
+      "hole_x": [
+        34,
+        40
+      ],
+      "hole_z": 6,
+      "count": 2
+    }
+  },
+  "parts": {
+    "z_lift_frame": {
+      "status": "NoError",
+      "shells": 1,
+      "volume_mm3": 198231.41,
+      "bbox_mm": {
+        "min": [
+          -83,
+          -116,
+          0
+        ],
+        "max": [
+          83,
+          -42,
+          180
+        ]
+      },
+      "triangles": 916
+    },
+    "z_lift_carriage": {
+      "status": "NoError",
+      "shells": 1,
+      "volume_mm3": 72776.67,
+      "bbox_mm": {
+        "min": [
+          -68.5,
+          -101,
+          0
+        ],
+        "max": [
+          68.5,
+          -62,
+          69
+        ]
+      },
+      "triangles": 2762
+    },
+    "z_rack": {
+      "status": "NoError",
+      "shells": 1,
+      "volume_mm3": 20002.96,
+      "bbox_mm": {
+        "min": [
+          28.5,
+          -97,
+          0
+        ],
+        "max": [
+          44,
+          -81,
+          101
+        ]
+      },
+      "triangles": 1036
+    },
+    "z_pinion": {
+      "status": "NoError",
+      "shells": 1,
+      "volume_mm3": 24280.58,
+      "bbox_mm": {
+        "min": [
+          -31.9998722076416,
+          -12,
+          0
+        ],
+        "max": [
+          31.9998722076416,
+          4,
+          63.76888656616211
+        ]
+      },
+      "triangles": 5352
+    },
+    "z_rack_guide_pair_reference": {
+      "status": "NoError",
+      "shells": 2,
+      "volume_mm3": 77373.41,
+      "bbox_mm": {
+        "min": [
+          -77,
+          -104,
+          0
+        ],
+        "max": [
+          77,
+          -74,
+          154
+        ]
+      },
+      "triangles": 872
+    },
+    "z_rack_guide_0": {
+      "status": "NoError",
+      "shells": 1,
+      "volume_mm3": 38686.7,
+      "bbox_mm": {
+        "min": [
+          -77,
+          -104,
+          0
+        ],
+        "max": [
+          -49,
+          -74,
+          154
+        ]
+      },
+      "triangles": 436
+    },
+    "z_rack_guide_1": {
+      "status": "NoError",
+      "shells": 1,
+      "volume_mm3": 38686.7,
+      "bbox_mm": {
+        "min": [
+          49,
+          -104,
+          0
+        ],
+        "max": [
+          77,
+          -74,
+          154
+        ]
+      },
+      "triangles": 436
+    },
+    "z_claw_platform": {
+      "status": "NoError",
+      "shells": 1,
+      "volume_mm3": 6715.99,
+      "bbox_mm": {
+        "min": [
+          -22,
+          -81,
+          0
+        ],
+        "max": [
+          42.5,
+          -67,
+          8
+        ]
+      },
+      "triangles": 820
+    },
+    "x_slider_adapter": {
+      "status": "NoError",
+      "shells": 1,
+      "volume_mm3": 18432.65,
+      "bbox_mm": {
+        "min": [
+          0,
+          0,
+          0
+        ],
+        "max": [
+          50,
+          54,
+          8
+        ]
+      },
+      "triangles": 2116
+    },
+    "z_servo_mount_symmetric": {
+      "status": "NoError",
+      "shells": 1,
+      "volume_mm3": 89373.41,
+      "bbox_mm": {
+        "min": [
+          -83,
+          -144,
+          0
+        ],
+        "max": [
+          83,
+          -38,
+          108
+        ]
+      },
+      "triangles": 986
+    },
+    "linkage_frame": {
+      "status": "NoError",
+      "shells": 1,
+      "volume_mm3": 88830.44,
+      "bbox_mm": {
+        "min": [
+          -62,
+          -3,
+          0
+        ],
+        "max": [
+          62,
+          105,
+          32
+        ]
+      },
+      "triangles": 1566
+    },
+    "linkage_servo_pinion": {
+      "status": "NoError",
+      "shells": 1,
+      "volume_mm3": 1035.44,
+      "bbox_mm": {
+        "min": [
+          -10.233501434326172,
+          64.7665023803711,
+          0
+        ],
+        "max": [
+          10.233501434326172,
+          85.2334976196289,
+          5
+        ]
+      },
+      "triangles": 1840
+    },
+    "linkage_jaw_left": {
+      "status": "NoError",
+      "shells": 1,
+      "volume_mm3": 35271.44,
+      "bbox_mm": {
+        "min": [
+          -73,
+          -7,
+          0
+        ],
+        "max": [
+          20,
+          99,
+          108
+        ]
+      },
+      "triangles": 1892
+    },
+    "linkage_jaw_right": {
+      "status": "NoError",
+      "shells": 1,
+      "volume_mm3": 34771.17,
+      "bbox_mm": {
+        "min": [
+          -20,
+          -7,
+          0
+        ],
+        "max": [
+          73,
+          99,
+          108
+        ]
+      },
+      "triangles": 1978
+    }
+  },
+  "poses": [
+    {
+      "label": "open_retracted",
+      "lift_stroke_mm": 0,
+      "jaw_base_gap_mm": 90,
+      "included_35mm_sphere": false,
+      "bbox_mm": {
+        "min": [
+          -83,
+          -144,
+          8
+        ],
+        "max": [
+          83,
+          -3,
+          280
+        ],
+        "size": [
+          166,
+          141,
+          272
+        ]
+      }
+    },
+    {
+      "label": "grip35_retracted",
+      "lift_stroke_mm": 0,
+      "jaw_base_gap_mm": 86,
+      "included_35mm_sphere": true,
+      "bbox_mm": {
+        "min": [
+          -83,
+          -144,
+          8
+        ],
+        "max": [
+          83,
+          -3,
+          280
+        ],
+        "size": [
+          166,
+          141,
+          272
+        ]
+      }
+    },
+    {
+      "label": "closed_retracted",
+      "lift_stroke_mm": 0,
+      "jaw_base_gap_mm": 70,
+      "included_35mm_sphere": false,
+      "bbox_mm": {
+        "min": [
+          -83,
+          -144,
+          8
+        ],
+        "max": [
+          83,
+          -3,
+          280
+        ],
+        "size": [
+          166,
+          141,
+          272
+        ]
+      }
+    },
+    {
+      "label": "open_extended",
+      "lift_stroke_mm": 80,
+      "jaw_base_gap_mm": 90,
+      "included_35mm_sphere": false,
+      "bbox_mm": {
+        "min": [
+          -83,
+          -144,
+          88
+        ],
+        "max": [
+          83,
+          -3,
+          280
+        ],
+        "size": [
+          166,
+          141,
+          192
+        ]
+      }
+    },
+    {
+      "label": "closed_extended",
+      "lift_stroke_mm": 80,
+      "jaw_base_gap_mm": 70,
+      "included_35mm_sphere": false,
+      "bbox_mm": {
+        "min": [
+          -83,
+          -144,
+          88
+        ],
+        "max": [
+          83,
+          -3,
+          280
+        ],
+        "size": [
+          166,
+          141,
+          192
+        ]
+      }
+    }
+  ],
+  "collision_checks": [
+    {
+      "lift_stroke_mm": 0,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              121
+            ],
+            "max": [
+              44,
+              -96.5,
+              171
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              98
+            ],
+            "max": [
+              44,
+              -81,
+              116
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 249.05,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              102.55952112562109
+            ],
+            "max": [
+              62,
+              -101,
+              110
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 152.09,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              100
+            ],
+            "max": [
+              58,
+              -101,
+              103
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              86
+            ],
+            "max": [
+              -30,
+              -98,
+              94
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              86
+            ],
+            "max": [
+              42,
+              -98,
+              94
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 0,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              121
+            ],
+            "max": [
+              44,
+              -96.5,
+              171
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              98
+            ],
+            "max": [
+              44,
+              -81,
+              116
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 249.05,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              102.55952112562109
+            ],
+            "max": [
+              62,
+              -101,
+              110
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 152.09,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              100
+            ],
+            "max": [
+              58,
+              -101,
+              103
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              86
+            ],
+            "max": [
+              -35,
+              -98,
+              94
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              86
+            ],
+            "max": [
+              47,
+              -98,
+              94
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 0,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              121
+            ],
+            "max": [
+              44,
+              -96.5,
+              171
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              98
+            ],
+            "max": [
+              44,
+              -81,
+              116
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 249.05,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              102.55952112562109
+            ],
+            "max": [
+              62,
+              -101,
+              110
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 193.77,
+          "bbox_mm": {
+            "min": [
+              -54,
+              -104,
+              102.55952112562109
+            ],
+            "max": [
+              -49,
+              -101,
+              116
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 193.77,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              102.55952112562109
+            ],
+            "max": [
+              54,
+              -101,
+              116
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 152.09,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              100
+            ],
+            "max": [
+              58,
+              -101,
+              103
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              86
+            ],
+            "max": [
+              -40,
+              -98,
+              94
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              86
+            ],
+            "max": [
+              52,
+              -98,
+              94
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 5,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              126
+            ],
+            "max": [
+              44,
+              -96.5,
+              176
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              103
+            ],
+            "max": [
+              44,
+              -81,
+              121
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 318.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              100
+            ],
+            "max": [
+              62,
+              -101,
+              115
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              102
+            ],
+            "max": [
+              58,
+              -101,
+              108
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              91
+            ],
+            "max": [
+              -30,
+              -98,
+              99
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              91
+            ],
+            "max": [
+              42,
+              -98,
+              99
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 5,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              126
+            ],
+            "max": [
+              44,
+              -96.5,
+              176
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              103
+            ],
+            "max": [
+              44,
+              -81,
+              121
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 318.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              100
+            ],
+            "max": [
+              62,
+              -101,
+              115
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              102
+            ],
+            "max": [
+              58,
+              -101,
+              108
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              91
+            ],
+            "max": [
+              -35,
+              -98,
+              99
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              91
+            ],
+            "max": [
+              47,
+              -98,
+              99
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 5,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              126
+            ],
+            "max": [
+              44,
+              -96.5,
+              176
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              103
+            ],
+            "max": [
+              44,
+              -81,
+              121
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 318.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              100
+            ],
+            "max": [
+              62,
+              -101,
+              115
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 216.54,
+          "bbox_mm": {
+            "min": [
+              -54,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -101,
+              121
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 216.54,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              100
+            ],
+            "max": [
+              54,
+              -101,
+              121
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              102
+            ],
+            "max": [
+              58,
+              -101,
+              108
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              91
+            ],
+            "max": [
+              -40,
+              -98,
+              99
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              91
+            ],
+            "max": [
+              52,
+              -98,
+              99
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 10,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              131
+            ],
+            "max": [
+              44,
+              -96.5,
+              181
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              108
+            ],
+            "max": [
+              44,
+              -81,
+              126
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 826.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              100
+            ],
+            "max": [
+              62,
+              -74,
+              120
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              107
+            ],
+            "max": [
+              58,
+              -101,
+              113
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              96
+            ],
+            "max": [
+              -30,
+              -98,
+              104
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              96
+            ],
+            "max": [
+              42,
+              -98,
+              104
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 10,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              131
+            ],
+            "max": [
+              44,
+              -96.5,
+              181
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              108
+            ],
+            "max": [
+              44,
+              -81,
+              126
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 826.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              100
+            ],
+            "max": [
+              62,
+              -74,
+              120
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              107
+            ],
+            "max": [
+              58,
+              -101,
+              113
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              96
+            ],
+            "max": [
+              -35,
+              -98,
+              104
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              96
+            ],
+            "max": [
+              47,
+              -98,
+              104
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 10,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              131
+            ],
+            "max": [
+              44,
+              -96.5,
+              181
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              108
+            ],
+            "max": [
+              44,
+              -81,
+              126
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 826.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              100
+            ],
+            "max": [
+              62,
+              -74,
+              120
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 261.54,
+          "bbox_mm": {
+            "min": [
+              -54,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -101,
+              126
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 261.54,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              100
+            ],
+            "max": [
+              54,
+              -101,
+              126
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              107
+            ],
+            "max": [
+              58,
+              -101,
+              113
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              96
+            ],
+            "max": [
+              -40,
+              -98,
+              104
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              96
+            ],
+            "max": [
+              52,
+              -98,
+              104
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 15,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              136
+            ],
+            "max": [
+              44,
+              -96.5,
+              186
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              113
+            ],
+            "max": [
+              44,
+              -81,
+              131
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              101
+            ],
+            "max": [
+              62,
+              -74,
+              125
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              112
+            ],
+            "max": [
+              58,
+              -101,
+              118
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              101
+            ],
+            "max": [
+              -30,
+              -98,
+              109
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              101
+            ],
+            "max": [
+              42,
+              -98,
+              109
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 15,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              136
+            ],
+            "max": [
+              44,
+              -96.5,
+              186
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              113
+            ],
+            "max": [
+              44,
+              -81,
+              131
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              101
+            ],
+            "max": [
+              62,
+              -74,
+              125
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              112
+            ],
+            "max": [
+              58,
+              -101,
+              118
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              101
+            ],
+            "max": [
+              -35,
+              -98,
+              109
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              101
+            ],
+            "max": [
+              47,
+              -98,
+              109
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 15,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              136
+            ],
+            "max": [
+              44,
+              -96.5,
+              186
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              113
+            ],
+            "max": [
+              44,
+              -81,
+              131
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              101
+            ],
+            "max": [
+              62,
+              -74,
+              125
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 306.54,
+          "bbox_mm": {
+            "min": [
+              -54,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -101,
+              131
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 306.54,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              100
+            ],
+            "max": [
+              54,
+              -101,
+              131
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              112
+            ],
+            "max": [
+              58,
+              -101,
+              118
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              101
+            ],
+            "max": [
+              -40,
+              -98,
+              109
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              101
+            ],
+            "max": [
+              52,
+              -98,
+              109
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 20,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              141
+            ],
+            "max": [
+              44,
+              -96.5,
+              191
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              118
+            ],
+            "max": [
+              44,
+              -81,
+              136
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              106
+            ],
+            "max": [
+              62,
+              -74,
+              130
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              117
+            ],
+            "max": [
+              58,
+              -101,
+              123
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              106
+            ],
+            "max": [
+              -30,
+              -98,
+              114
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              106
+            ],
+            "max": [
+              42,
+              -98,
+              114
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 20,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              141
+            ],
+            "max": [
+              44,
+              -96.5,
+              191
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              118
+            ],
+            "max": [
+              44,
+              -81,
+              136
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              106
+            ],
+            "max": [
+              62,
+              -74,
+              130
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              117
+            ],
+            "max": [
+              58,
+              -101,
+              123
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              106
+            ],
+            "max": [
+              -35,
+              -98,
+              114
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              106
+            ],
+            "max": [
+              47,
+              -98,
+              114
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 20,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              141
+            ],
+            "max": [
+              44,
+              -96.5,
+              191
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              118
+            ],
+            "max": [
+              44,
+              -81,
+              136
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              106
+            ],
+            "max": [
+              62,
+              -74,
+              130
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 351.54,
+          "bbox_mm": {
+            "min": [
+              -54,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -101,
+              136
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 351.54,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              100
+            ],
+            "max": [
+              54,
+              -101,
+              136
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              117
+            ],
+            "max": [
+              58,
+              -101,
+              123
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              106
+            ],
+            "max": [
+              -40,
+              -98,
+              114
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              106
+            ],
+            "max": [
+              52,
+              -98,
+              114
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 25,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              146
+            ],
+            "max": [
+              44,
+              -96.5,
+              196
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              123
+            ],
+            "max": [
+              44,
+              -81,
+              141
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              111
+            ],
+            "max": [
+              62,
+              -74,
+              135
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              122
+            ],
+            "max": [
+              58,
+              -101,
+              128
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              111
+            ],
+            "max": [
+              -30,
+              -98,
+              119
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              111
+            ],
+            "max": [
+              42,
+              -98,
+              119
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 25,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              146
+            ],
+            "max": [
+              44,
+              -96.5,
+              196
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              123
+            ],
+            "max": [
+              44,
+              -81,
+              141
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              111
+            ],
+            "max": [
+              62,
+              -74,
+              135
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              122
+            ],
+            "max": [
+              58,
+              -101,
+              128
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              111
+            ],
+            "max": [
+              -35,
+              -98,
+              119
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              111
+            ],
+            "max": [
+              47,
+              -98,
+              119
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 25,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              146
+            ],
+            "max": [
+              44,
+              -96.5,
+              196
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              123
+            ],
+            "max": [
+              44,
+              -81,
+              141
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              111
+            ],
+            "max": [
+              62,
+              -74,
+              135
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 396.54,
+          "bbox_mm": {
+            "min": [
+              -54,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -101,
+              141
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 396.54,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              100
+            ],
+            "max": [
+              54,
+              -101,
+              141
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              122
+            ],
+            "max": [
+              58,
+              -101,
+              128
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              111
+            ],
+            "max": [
+              -40,
+              -98,
+              119
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              111
+            ],
+            "max": [
+              52,
+              -98,
+              119
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 30,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              151
+            ],
+            "max": [
+              44,
+              -96.5,
+              201
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              128
+            ],
+            "max": [
+              44,
+              -81,
+              146
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              116
+            ],
+            "max": [
+              62,
+              -74,
+              140
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              127
+            ],
+            "max": [
+              58,
+              -101,
+              133
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              116
+            ],
+            "max": [
+              -30,
+              -98,
+              124
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              116
+            ],
+            "max": [
+              42,
+              -98,
+              124
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 30,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              151
+            ],
+            "max": [
+              44,
+              -96.5,
+              201
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              128
+            ],
+            "max": [
+              44,
+              -81,
+              146
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              116
+            ],
+            "max": [
+              62,
+              -74,
+              140
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              127
+            ],
+            "max": [
+              58,
+              -101,
+              133
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              116
+            ],
+            "max": [
+              -35,
+              -98,
+              124
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              116
+            ],
+            "max": [
+              47,
+              -98,
+              124
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 30,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              151
+            ],
+            "max": [
+              44,
+              -96.5,
+              201
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              128
+            ],
+            "max": [
+              44,
+              -81,
+              146
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              116
+            ],
+            "max": [
+              62,
+              -74,
+              140
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 441.54,
+          "bbox_mm": {
+            "min": [
+              -54,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -101,
+              146
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 441.54,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              100
+            ],
+            "max": [
+              54,
+              -101,
+              146
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              127
+            ],
+            "max": [
+              58,
+              -101,
+              133
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              116
+            ],
+            "max": [
+              -40,
+              -98,
+              124
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              116
+            ],
+            "max": [
+              52,
+              -98,
+              124
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 35,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              156
+            ],
+            "max": [
+              44,
+              -96.5,
+              206
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              133
+            ],
+            "max": [
+              44,
+              -81,
+              151
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              121
+            ],
+            "max": [
+              62,
+              -74,
+              145
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              132
+            ],
+            "max": [
+              58,
+              -101,
+              138
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              121
+            ],
+            "max": [
+              -30,
+              -98,
+              129
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              121
+            ],
+            "max": [
+              42,
+              -98,
+              129
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 35,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              156
+            ],
+            "max": [
+              44,
+              -96.5,
+              206
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              133
+            ],
+            "max": [
+              44,
+              -81,
+              151
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              121
+            ],
+            "max": [
+              62,
+              -74,
+              145
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              132
+            ],
+            "max": [
+              58,
+              -101,
+              138
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              121
+            ],
+            "max": [
+              -35,
+              -98,
+              129
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              121
+            ],
+            "max": [
+              47,
+              -98,
+              129
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 35,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              156
+            ],
+            "max": [
+              44,
+              -96.5,
+              206
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              133
+            ],
+            "max": [
+              44,
+              -81,
+              151
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              121
+            ],
+            "max": [
+              62,
+              -74,
+              145
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 486.54,
+          "bbox_mm": {
+            "min": [
+              -54,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -101,
+              151
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 486.54,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              100
+            ],
+            "max": [
+              54,
+              -101,
+              151
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              132
+            ],
+            "max": [
+              58,
+              -101,
+              138
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              121
+            ],
+            "max": [
+              -40,
+              -98,
+              129
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              121
+            ],
+            "max": [
+              52,
+              -98,
+              129
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 40,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              161
+            ],
+            "max": [
+              44,
+              -96.5,
+              211
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              138
+            ],
+            "max": [
+              44,
+              -81,
+              156
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              126
+            ],
+            "max": [
+              62,
+              -74,
+              150
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              137
+            ],
+            "max": [
+              58,
+              -101,
+              143
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              126
+            ],
+            "max": [
+              -30,
+              -98,
+              134
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              126
+            ],
+            "max": [
+              42,
+              -98,
+              134
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 40,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              161
+            ],
+            "max": [
+              44,
+              -96.5,
+              211
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              138
+            ],
+            "max": [
+              44,
+              -81,
+              156
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              126
+            ],
+            "max": [
+              62,
+              -74,
+              150
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              137
+            ],
+            "max": [
+              58,
+              -101,
+              143
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              126
+            ],
+            "max": [
+              -35,
+              -98,
+              134
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              126
+            ],
+            "max": [
+              47,
+              -98,
+              134
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 40,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              161
+            ],
+            "max": [
+              44,
+              -96.5,
+              211
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              138
+            ],
+            "max": [
+              44,
+              -81,
+              156
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              126
+            ],
+            "max": [
+              62,
+              -74,
+              150
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 531.54,
+          "bbox_mm": {
+            "min": [
+              -54,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -101,
+              156
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 531.54,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              100
+            ],
+            "max": [
+              54,
+              -101,
+              156
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              137
+            ],
+            "max": [
+              58,
+              -101,
+              143
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              126
+            ],
+            "max": [
+              -40,
+              -98,
+              134
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              126
+            ],
+            "max": [
+              52,
+              -98,
+              134
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 45,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              166
+            ],
+            "max": [
+              44,
+              -96.5,
+              216
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              143
+            ],
+            "max": [
+              44,
+              -81,
+              161
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              131
+            ],
+            "max": [
+              62,
+              -74,
+              155
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              142
+            ],
+            "max": [
+              58,
+              -101,
+              148
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              131
+            ],
+            "max": [
+              -30,
+              -98,
+              139
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              131
+            ],
+            "max": [
+              42,
+              -98,
+              139
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 45,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              166
+            ],
+            "max": [
+              44,
+              -96.5,
+              216
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              143
+            ],
+            "max": [
+              44,
+              -81,
+              161
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              131
+            ],
+            "max": [
+              62,
+              -74,
+              155
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              142
+            ],
+            "max": [
+              58,
+              -101,
+              148
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              131
+            ],
+            "max": [
+              -35,
+              -98,
+              139
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              131
+            ],
+            "max": [
+              47,
+              -98,
+              139
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 45,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              166
+            ],
+            "max": [
+              44,
+              -96.5,
+              216
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              143
+            ],
+            "max": [
+              44,
+              -81,
+              161
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              131
+            ],
+            "max": [
+              62,
+              -74,
+              155
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 576.54,
+          "bbox_mm": {
+            "min": [
+              -54,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -101,
+              161
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 576.54,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              100
+            ],
+            "max": [
+              54,
+              -101,
+              161
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              142
+            ],
+            "max": [
+              58,
+              -101,
+              148
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              131
+            ],
+            "max": [
+              -40,
+              -98,
+              139
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              131
+            ],
+            "max": [
+              52,
+              -98,
+              139
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 50,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              171
+            ],
+            "max": [
+              44,
+              -96.5,
+              221
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              148
+            ],
+            "max": [
+              44,
+              -81,
+              166
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              136
+            ],
+            "max": [
+              62,
+              -74,
+              160
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              147
+            ],
+            "max": [
+              58,
+              -101,
+              153
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              136
+            ],
+            "max": [
+              -30,
+              -98,
+              144
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              136
+            ],
+            "max": [
+              42,
+              -98,
+              144
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 50,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              171
+            ],
+            "max": [
+              44,
+              -96.5,
+              221
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              148
+            ],
+            "max": [
+              44,
+              -81,
+              166
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              136
+            ],
+            "max": [
+              62,
+              -74,
+              160
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              147
+            ],
+            "max": [
+              58,
+              -101,
+              153
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              136
+            ],
+            "max": [
+              -35,
+              -98,
+              144
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              136
+            ],
+            "max": [
+              47,
+              -98,
+              144
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 50,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              171
+            ],
+            "max": [
+              44,
+              -96.5,
+              221
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              148
+            ],
+            "max": [
+              44,
+              -81,
+              166
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              136
+            ],
+            "max": [
+              62,
+              -74,
+              160
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 621.54,
+          "bbox_mm": {
+            "min": [
+              -54,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -101,
+              166
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 621.54,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              100
+            ],
+            "max": [
+              54,
+              -101,
+              166
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              147
+            ],
+            "max": [
+              58,
+              -101,
+              153
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              136
+            ],
+            "max": [
+              -40,
+              -98,
+              144
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              136
+            ],
+            "max": [
+              52,
+              -98,
+              144
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 55,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              176
+            ],
+            "max": [
+              44,
+              -96.5,
+              226
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              153
+            ],
+            "max": [
+              44,
+              -81,
+              171
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              141
+            ],
+            "max": [
+              62,
+              -74,
+              165
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              152
+            ],
+            "max": [
+              58,
+              -101,
+              158
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              141
+            ],
+            "max": [
+              -30,
+              -98,
+              149
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              141
+            ],
+            "max": [
+              42,
+              -98,
+              149
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 55,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              176
+            ],
+            "max": [
+              44,
+              -96.5,
+              226
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              153
+            ],
+            "max": [
+              44,
+              -81,
+              171
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              141
+            ],
+            "max": [
+              62,
+              -74,
+              165
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              152
+            ],
+            "max": [
+              58,
+              -101,
+              158
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              141
+            ],
+            "max": [
+              -35,
+              -98,
+              149
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              141
+            ],
+            "max": [
+              47,
+              -98,
+              149
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 55,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              176
+            ],
+            "max": [
+              44,
+              -96.5,
+              226
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              153
+            ],
+            "max": [
+              44,
+              -81,
+              171
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              141
+            ],
+            "max": [
+              62,
+              -74,
+              165
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 666.54,
+          "bbox_mm": {
+            "min": [
+              -54,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -101,
+              171
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 666.54,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              100
+            ],
+            "max": [
+              54,
+              -101,
+              171
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              152
+            ],
+            "max": [
+              58,
+              -101,
+              158
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              141
+            ],
+            "max": [
+              -40,
+              -98,
+              149
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              141
+            ],
+            "max": [
+              52,
+              -98,
+              149
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 60,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              181
+            ],
+            "max": [
+              44,
+              -96.5,
+              231
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              158
+            ],
+            "max": [
+              44,
+              -81,
+              176
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              146
+            ],
+            "max": [
+              62,
+              -74,
+              170
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              157
+            ],
+            "max": [
+              58,
+              -101,
+              163
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              146
+            ],
+            "max": [
+              -30,
+              -98,
+              154
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              146
+            ],
+            "max": [
+              42,
+              -98,
+              154
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 60,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              181
+            ],
+            "max": [
+              44,
+              -96.5,
+              231
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              158
+            ],
+            "max": [
+              44,
+              -81,
+              176
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              146
+            ],
+            "max": [
+              62,
+              -74,
+              170
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              157
+            ],
+            "max": [
+              58,
+              -101,
+              163
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              146
+            ],
+            "max": [
+              -35,
+              -98,
+              154
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              146
+            ],
+            "max": [
+              47,
+              -98,
+              154
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 60,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              181
+            ],
+            "max": [
+              44,
+              -96.5,
+              231
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              158
+            ],
+            "max": [
+              44,
+              -81,
+              176
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              146
+            ],
+            "max": [
+              62,
+              -74,
+              170
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 711.54,
+          "bbox_mm": {
+            "min": [
+              -54,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -101,
+              176
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 711.54,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              100
+            ],
+            "max": [
+              54,
+              -101,
+              176
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              157
+            ],
+            "max": [
+              58,
+              -101,
+              163
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              146
+            ],
+            "max": [
+              -40,
+              -98,
+              154
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              146
+            ],
+            "max": [
+              52,
+              -98,
+              154
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 65,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              186
+            ],
+            "max": [
+              44,
+              -96.5,
+              236
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              163
+            ],
+            "max": [
+              44,
+              -81,
+              181
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              151
+            ],
+            "max": [
+              62,
+              -74,
+              175
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              162
+            ],
+            "max": [
+              58,
+              -101,
+              168
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              151
+            ],
+            "max": [
+              -30,
+              -98,
+              159
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              151
+            ],
+            "max": [
+              42,
+              -98,
+              159
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 65,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              186
+            ],
+            "max": [
+              44,
+              -96.5,
+              236
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              163
+            ],
+            "max": [
+              44,
+              -81,
+              181
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              151
+            ],
+            "max": [
+              62,
+              -74,
+              175
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              162
+            ],
+            "max": [
+              58,
+              -101,
+              168
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              151
+            ],
+            "max": [
+              -35,
+              -98,
+              159
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              151
+            ],
+            "max": [
+              47,
+              -98,
+              159
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 65,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              186
+            ],
+            "max": [
+              44,
+              -96.5,
+              236
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              163
+            ],
+            "max": [
+              44,
+              -81,
+              181
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              151
+            ],
+            "max": [
+              62,
+              -74,
+              175
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 791.04,
+          "bbox_mm": {
+            "min": [
+              -54,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -74,
+              181
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 791.04,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              100
+            ],
+            "max": [
+              54,
+              -74,
+              181
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              162
+            ],
+            "max": [
+              58,
+              -101,
+              168
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              151
+            ],
+            "max": [
+              -40,
+              -98,
+              159
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              151
+            ],
+            "max": [
+              52,
+              -98,
+              159
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 70,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              191
+            ],
+            "max": [
+              44,
+              -96.5,
+              241
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              168
+            ],
+            "max": [
+              44,
+              -81,
+              186
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              156
+            ],
+            "max": [
+              62,
+              -74,
+              180
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 11.51,
+          "bbox_mm": {
+            "min": [
+              -52.26679543429217,
+              -101.20967725940561,
+              100
+            ],
+            "max": [
+              -49,
+              -74,
+              102.2272963644035
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              167
+            ],
+            "max": [
+              58,
+              -101,
+              173
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              156
+            ],
+            "max": [
+              -30,
+              -98,
+              164
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              156
+            ],
+            "max": [
+              42,
+              -98,
+              164
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 70,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              191
+            ],
+            "max": [
+              44,
+              -96.5,
+              241
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              168
+            ],
+            "max": [
+              44,
+              -81,
+              186
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              156
+            ],
+            "max": [
+              62,
+              -74,
+              180
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 62.71,
+          "bbox_mm": {
+            "min": [
+              -57.26679543429217,
+              -102.68394769756378,
+              100
+            ],
+            "max": [
+              -49,
+              -74,
+              104.48036792091004
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              167
+            ],
+            "max": [
+              58,
+              -101,
+              173
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              156
+            ],
+            "max": [
+              -35,
+              -98,
+              164
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              156
+            ],
+            "max": [
+              47,
+              -98,
+              164
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 70,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              191
+            ],
+            "max": [
+              44,
+              -96.5,
+              241
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              168
+            ],
+            "max": [
+              44,
+              -81,
+              186
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              156
+            ],
+            "max": [
+              62,
+              -74,
+              180
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 949.64,
+          "bbox_mm": {
+            "min": [
+              -62.26679543429217,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -74,
+              186
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 859.04,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              100
+            ],
+            "max": [
+              54,
+              -74,
+              186
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              167
+            ],
+            "max": [
+              58,
+              -101,
+              173
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              156
+            ],
+            "max": [
+              -40,
+              -98,
+              164
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              156
+            ],
+            "max": [
+              52,
+              -98,
+              164
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 75,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              196
+            ],
+            "max": [
+              44,
+              -96.5,
+              246
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              173
+            ],
+            "max": [
+              44,
+              -81,
+              191
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              161
+            ],
+            "max": [
+              62,
+              -74,
+              185
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 91.63,
+          "bbox_mm": {
+            "min": [
+              -57.19944370882727,
+              -102.82360331714153,
+              100
+            ],
+            "max": [
+              -49,
+              -74,
+              107.2272963644035
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              172
+            ],
+            "max": [
+              58,
+              -101,
+              178
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              161
+            ],
+            "max": [
+              -30,
+              -98,
+              169
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              161
+            ],
+            "max": [
+              42,
+              -98,
+              169
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 75,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              196
+            ],
+            "max": [
+              44,
+              -96.5,
+              246
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              173
+            ],
+            "max": [
+              44,
+              -81,
+              191
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              161
+            ],
+            "max": [
+              62,
+              -74,
+              185
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 172.92,
+          "bbox_mm": {
+            "min": [
+              -62.19944370882727,
+              -102.82360331714153,
+              100
+            ],
+            "max": [
+              -49,
+              -74,
+              109.48036792091004
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              172
+            ],
+            "max": [
+              58,
+              -101,
+              178
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              161
+            ],
+            "max": [
+              -35,
+              -98,
+              169
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              161
+            ],
+            "max": [
+              47,
+              -98,
+              169
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 75,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              196
+            ],
+            "max": [
+              44,
+              -96.5,
+              246
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              173
+            ],
+            "max": [
+              44,
+              -81,
+              191
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              161
+            ],
+            "max": [
+              62,
+              -74,
+              185
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 1070.08,
+          "bbox_mm": {
+            "min": [
+              -67.19944370882726,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -74,
+              191
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 859.04,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              105
+            ],
+            "max": [
+              54,
+              -74,
+              191
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              172
+            ],
+            "max": [
+              58,
+              -101,
+              178
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              161
+            ],
+            "max": [
+              -40,
+              -98,
+              169
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              161
+            ],
+            "max": [
+              52,
+              -98,
+              169
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 80,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              201
+            ],
+            "max": [
+              44,
+              -96.5,
+              251
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              178
+            ],
+            "max": [
+              44,
+              -81,
+              196
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              166
+            ],
+            "max": [
+              62,
+              -74,
+              190
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 180.48,
+          "bbox_mm": {
+            "min": [
+              -60.261674536423826,
+              -102.82360331714153,
+              100
+            ],
+            "max": [
+              -49,
+              -74,
+              112.2272963644035
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              177
+            ],
+            "max": [
+              58,
+              -101,
+              183
+            ]
+          }
+        },
+        {
+          "a": "z_pinion",
+          "b": "grip_guide_rear",
+          "volume_mm3": 38.51,
+          "bbox_mm": {
+            "min": [
+              -9.141355281297336,
+              -101,
+              178.01421143618998
+            ],
+            "max": [
+              9.118514246942839,
+              -100,
+              182.22771542934365
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              166
+            ],
+            "max": [
+              -30,
+              -98,
+              174
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              166
+            ],
+            "max": [
+              42,
+              -98,
+              174
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 80,
+      "jaw_gap_mm": 80,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              201
+            ],
+            "max": [
+              44,
+              -96.5,
+              251
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              178
+            ],
+            "max": [
+              44,
+              -81,
+              196
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              166
+            ],
+            "max": [
+              62,
+              -74,
+              190
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 262.48,
+          "bbox_mm": {
+            "min": [
+              -65.26167453642383,
+              -102.82360331714153,
+              100
+            ],
+            "max": [
+              -49,
+              -74,
+              114.48036792091004
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              177
+            ],
+            "max": [
+              58,
+              -101,
+              183
+            ]
+          }
+        },
+        {
+          "a": "z_pinion",
+          "b": "grip_guide_rear",
+          "volume_mm3": 38.51,
+          "bbox_mm": {
+            "min": [
+              -9.141355281297336,
+              -101,
+              178.01421143618998
+            ],
+            "max": [
+              9.118514246942839,
+              -100,
+              182.22771542934365
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -47,
+              -103,
+              166
+            ],
+            "max": [
+              -35,
+              -98,
+              174
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              35,
+              -103,
+              166
+            ],
+            "max": [
+              47,
+              -98,
+              174
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 80,
+      "jaw_gap_mm": 90,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              201
+            ],
+            "max": [
+              44,
+              -96.5,
+              251
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 120,
+          "bbox_mm": {
+            "min": [
+              36,
+              -97,
+              178
+            ],
+            "max": [
+              44,
+              -81,
+              196
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              166
+            ],
+            "max": [
+              62,
+              -74,
+              190
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 1196.2,
+          "bbox_mm": {
+            "min": [
+              -70.26167453642383,
+              -104,
+              100
+            ],
+            "max": [
+              -49,
+              -74,
+              196
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 859.04,
+          "bbox_mm": {
+            "min": [
+              49,
+              -104,
+              110
+            ],
+            "max": [
+              54,
+              -74,
+              196
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              177
+            ],
+            "max": [
+              58,
+              -101,
+              183
+            ]
+          }
+        },
+        {
+          "a": "z_pinion",
+          "b": "grip_guide_rear",
+          "volume_mm3": 38.51,
+          "bbox_mm": {
+            "min": [
+              -9.141355281297336,
+              -101,
+              178.01421143618998
+            ],
+            "max": [
+              9.118514246942839,
+              -100,
+              182.22771542934365
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -52,
+              -103,
+              166
+            ],
+            "max": [
+              -40,
+              -98,
+              174
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              40,
+              -103,
+              166
+            ],
+            "max": [
+              52,
+              -98,
+              174
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 0,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              121
+            ],
+            "max": [
+              44,
+              -96.5,
+              171
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              98
+            ],
+            "max": [
+              44,
+              -81,
+              116
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 249.05,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              102.55952112562109
+            ],
+            "max": [
+              62,
+              -101,
+              110
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 152.09,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              100
+            ],
+            "max": [
+              58,
+              -101,
+              103
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              86
+            ],
+            "max": [
+              -30,
+              -98,
+              94
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              86
+            ],
+            "max": [
+              42,
+              -98,
+              94
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 40,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              161
+            ],
+            "max": [
+              44,
+              -96.5,
+              211
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              138
+            ],
+            "max": [
+              44,
+              -81,
+              156
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              126
+            ],
+            "max": [
+              62,
+              -74,
+              150
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              137
+            ],
+            "max": [
+              58,
+              -101,
+              143
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              126
+            ],
+            "max": [
+              -30,
+              -98,
+              134
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              126
+            ],
+            "max": [
+              42,
+              -98,
+              134
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 80,
+      "jaw_gap_mm": 70,
+      "unexpected": [
+        {
+          "a": "z_frame",
+          "b": "z_servo_mount",
+          "volume_mm3": 44400,
+          "bbox_mm": {
+            "min": [
+              -83,
+              -116,
+              176
+            ],
+            "max": [
+              83,
+              -42,
+              280
+            ]
+          }
+        },
+        {
+          "a": "z_servo_mount",
+          "b": "z_servo",
+          "volume_mm3": 1280,
+          "bbox_mm": {
+            "min": [
+              -20,
+              -140,
+              172
+            ],
+            "max": [
+              20,
+              -120,
+              208
+            ]
+          }
+        },
+        {
+          "a": "z_carriage",
+          "b": "z_rack",
+          "volume_mm3": 203.45,
+          "bbox_mm": {
+            "min": [
+              35.5,
+              -97,
+              201
+            ],
+            "max": [
+              44,
+              -96.5,
+              251
+            ]
+          }
+        },
+        {
+          "a": "z_rack",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 378.56,
+          "bbox_mm": {
+            "min": [
+              31.875,
+              -97,
+              178
+            ],
+            "max": [
+              44,
+              -81,
+              196
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "gripper_frame",
+          "volume_mm3": 1298.1,
+          "bbox_mm": {
+            "min": [
+              -62,
+              -104,
+              166
+            ],
+            "max": [
+              62,
+              -74,
+              190
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 180.48,
+          "bbox_mm": {
+            "min": [
+              -60.261674536423826,
+              -102.82360331714153,
+              100
+            ],
+            "max": [
+              -49,
+              -74,
+              112.2272963644035
+            ]
+          }
+        },
+        {
+          "a": "z_rack_guide",
+          "b": "grip_guide_rear",
+          "volume_mm3": 304.18,
+          "bbox_mm": {
+            "min": [
+              -58,
+              -104,
+              177
+            ],
+            "max": [
+              58,
+              -101,
+              183
+            ]
+          }
+        },
+        {
+          "a": "z_pinion",
+          "b": "grip_guide_rear",
+          "volume_mm3": 38.51,
+          "bbox_mm": {
+            "min": [
+              -9.141355281297336,
+              -101,
+              178.01421143618998
+            ],
+            "max": [
+              9.118514246942839,
+              -100,
+              182.22771542934365
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_left_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              -42,
+              -103,
+              166
+            ],
+            "max": [
+              -30,
+              -98,
+              174
+            ]
+          }
+        },
+        {
+          "a": "gripper_frame",
+          "b": "jaw_right_linkage",
+          "volume_mm3": 480,
+          "bbox_mm": {
+            "min": [
+              30,
+              -103,
+              166
+            ],
+            "max": [
+              42,
+              -98,
+              174
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "lift_stroke_mm": 0,
+      "jaw_gap_mm": 90,
+      "pair_clearance": []
+    },
+    {
+      "lift_stroke_mm": 0,
+      "jaw_gap_mm": 86,
+      "pair_clearance": []
+    },
+    {
+      "lift_stroke_mm": 0,
+      "jaw_gap_mm": 80,
+      "pair_clearance": []
+    },
+    {
+      "lift_stroke_mm": 0,
+      "jaw_gap_mm": 70,
+      "pair_clearance": []
+    }
+  ],
+  "ball35": {
+    "source": "geometry-only reference sphere, Ø35 mm",
+    "center_relative_to_claw_top_mm": [
+      0,
+      -6,
+      36
+    ],
+    "first_sampled_contact": null,
+    "max_sampled_intersection_mm3": 0,
+    "step_mm": 1,
+    "note": "Contact is not proof of holding force or grasp reliability."
+  }
+}
