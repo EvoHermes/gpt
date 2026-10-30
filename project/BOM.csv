@@ -1,0 +1,16 @@
+类别,名称,规格,数量,备注
+打印件,z_lift_frame,固定Z框架,1,输出STL审阅网格
+打印件,z_lift_carriage,捕获式滑架,1,输出STL；与固定导向通道存在待复核交叠
+打印件,z_rack,模数2齿条,1,约105 mm长
+打印件,z_pinion,30齿模数2齿轮,1,节圆半径30 mm
+打印件,z_claw_platform_2xM3,约64.5x14x8 mm小平台,1,与齿条前侧贴合；夹爪孔2xØ3.4、中心距24 mm
+打印件,z_rack_guide,固定滑架导向通道,1,分体结构；总装干涉待复核
+打印件,z_servo_mount_symmetric,对称Z舵机支架,1,需核对舵机外形
+打印件,linkage_frame,双齿条夹爪骨架,1,槽口朝下的夹爪布局
+打印件,linkage_servo_pinion,12齿模数1.5齿轮,1,夹爪同步驱动
+打印件,linkage_jaw_left,左滑爪与圆爪,1,沿用用户圆爪.STL
+打印件,linkage_jaw_right,右滑爪与圆爪,1,沿用并镜像用户圆爪.STL
+参考件,x_axis_slider_reference,大鱼写字机X轴滑块,1,仅审阅定位
+标准件,舵机,型号待确认,2,Z轴升降与夹爪各1
+标准件,M3螺钉螺母,按装配厚度选型,若干,平台与齿条及夹爪连接
+标准件,光轴,Ø6 mm,2,夹爪导向；Z轴不使用光轴
