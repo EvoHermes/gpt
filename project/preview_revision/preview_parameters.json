@@ -1,0 +1,32 @@
+{
+  "scope": "preview only",
+  "donor_scale": 0.25,
+  "round_claw_scale": 1,
+  "round_orientation": "source +Y handle points to world +Z",
+  "lift_pinion": {
+    "module": 2,
+    "teeth": 18,
+    "pitch_diameter_mm": 36,
+    "outside_diameter_mm": 40,
+    "assumed_servo_angle_deg": 150,
+    "theoretical_stroke_mm": 47.1238898038469
+  },
+  "bbox_mm": {
+    "min": [
+      -83,
+      -140,
+      16.85
+    ],
+    "max": [
+      83,
+      -18,
+      280
+    ]
+  },
+  "limitations": [
+    "Concept mounting bridge, not a finished mounting interface",
+    "Donor holes and gear module shrink with preview scale and require redesign before fabrication",
+    "No collision, motion, servo torque or grip validation",
+    "Original project outputs and native CAD remain unchanged"
+  ]
+}
